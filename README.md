@@ -1,23 +1,25 @@
 # SDFx Tutorial
 
-Use SDFx to build effects from the shape of the selected Photoshop layer.
+1. [What's an SDF?](./pages/1-whats-an-sdf.md)
 
-Read the [quick start guide](getting-started.md) for a short first-run workflow.
+2. [Basic usage: input, output, and execution trigger](./pages/2-input-output.md)
 
-## Quick Start
+3. [Settings tabs: high-level overview](./pages/3-settings-tabs.md)
 
-1. Select the source layer or group in Photoshop.
-2. Choose where the result should be written from the Output menu.
-3. Adjust the SDF controls.
-4. Press Execute.
+4. [Prep tab](./pages/4-prep.md)
 
-## Core Controls
+5. [Pre-SDF tab](./pages/5-pre-sdf.md)
 
-- Lock input layer keeps the same source layer selected while you experiment.
-- Apply results immediately reruns the current effect after control changes.
-- Two pass and third pass processing repeat the effect with the current settings.
+    1. [Tangent Lines](/pages/5-1-tangent-lines.md)
 
-## Notes
+    2. [Edge roughen](/pages/5-2-edge-roughen.md)
 
-This page is written in Markdown from `docs/README.md`. Run `npm run render-docs`
-after editing it to update the tutorial shown in the plugin.
+    3. [Radial Spokes](/pages/5-3-radial-spokes.md)
+
+    4. [Hatching](/pages/5-4-hatching.md)
+
+    5. [Stipple](/pages/5-5-stipple.md)
+
+    6. [Directional Extrude](/pages/5-6-directional-extrude.md)
+
+    7. [Random Fragments](/pages/5-7-random-fragments.md)
