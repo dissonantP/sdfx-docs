@@ -2,6 +2,8 @@
 
 Use SDFx to build effects from the shape of the selected Photoshop layer.
 
+Read the [quick start guide](getting-started.md) for a short first-run workflow.
+
 ## Quick Start
 
 1. Select the source layer or group in Photoshop.
