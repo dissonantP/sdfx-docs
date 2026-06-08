@@ -17,5 +17,5 @@ Use SDFx to build effects from the shape of the selected Photoshop layer.
 
 ## Notes
 
-This page is written in Markdown from `docs/index.md`. Run `npm run render-docs`
+This page is written in Markdown from `docs/README.md`. Run `npm run render-docs`
 after editing it to update the tutorial shown in the plugin.
