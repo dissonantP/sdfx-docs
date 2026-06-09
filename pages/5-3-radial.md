@@ -8,17 +8,13 @@ This effect is similar to "Tangent Lines" but rather than drawing lines which fo
 
 ![img](/images/radial-1.png)
 
-Many of the controls will be familiar from the Tangent Lines effect. For example here I've decreased Line Length, increased density by lowering Spacing, and offset from center:
+Most of the controls are the same as with Tangent Lines:
 
 ![img](/images/radial-2.png)
 
-"Equal Spoke Spacing" attempts to space the lines equally from one another (alas, it is still imperfect - a potential area of improvement):
+Note that by default, Radial Spokes are only drawn _outward_ from the shape, so "Hide Spokes Outside Source" might not show too much. You can enable "Bidirectional Spokes" to fix this:
 
 ![img](/images/radial-3.png)
-
-As with Tangent Lines, there are options to control how the generated lines feed into the output:
-
-![img](/images/radial-4.png)
 
 "Corner Filter" (adjusted with "Corner Sensitivity") can be used to only show lines at areas with high curvature. Applying a bit of blur beforehand can smooth out surface noise and produce a cleaner result here:
 
@@ -27,5 +23,9 @@ As with Tangent Lines, there are options to control how the generated lines feed
 Note that by default, lines are produced at both convex and concave curves. This can be adjusted using the "Corner Side Filter" settings:
 
 ![img](/images/radial-6.png)
+
+Neat 👍
+
+![img](/images/radial-7.png)
 
 [Next: Radial Spokes](/pages/5-4-hatching.md)
