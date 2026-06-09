@@ -14,7 +14,7 @@
 
     2. [Edge roughen](/pages/5-2-edge-roughen.md)
 
-    3. [Radial Spokes](/pages/5-3-radial-spokes.md)
+    3. [Radial Spokes](/pages/5-3-radial.md)
 
     4. [Hatching](/pages/5-4-hatching.md)
 

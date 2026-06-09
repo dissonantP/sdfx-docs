@@ -42,8 +42,24 @@ By checking "Replace Source with Tangent Lines", we're essentially saying "I ONL
 
 ![img](/images/tangent-8.png)
 
-All this is intended to be a procedural way to feed interesting input to the SDF and Post SDF settings. For example, here's a result with the Concentric Lines effect enabled again:
+Enabling "Hide lines inside source" will prevent the lines from crossing into the input shape:
 
-![img](/images/tangent-9.png)
+![img](/images/tangent-10.png)
+
+As you'd expect, "Hide lines outside source" does the opposite: 
+
+![img](/images/tangent-14.png)
+
+"Post noise" is by default in "displacement" mode, which can give tendril-like results when frequency is turned low:
+
+![img](/images/tangent-11.png)
+
+The other "Post noise" type is "Erode / Dilate" which produces a more staticky type effect:
+
+![img](/images/tangent-12.png)
+
+Tangent lines can produce cool results by itself, and can give interesting variations when combined with the various SDF and Post SDF settings. For example, when we take that previous Erode / Dilate example and feed it into an SDF with "Preserve Growth Intersections" and "Draw Concentric Lines" enabled, we get something that kinda looks like coral, or a fossil.
+
+![img](/images/tangent-13.png)
 
 [Next: Edge Roughen](/pages/5-2-edge-roughen.md)

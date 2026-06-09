@@ -20,4 +20,4 @@ Here's an example of how Edge Roughen can alter an effect, with various frequenc
 
 ![img](/images/roughen-3.png)
 
-[Next: Radial Spokes](/pages/5-3-radial-spokes.md)
+[Next: Radial Spokes](/pages/5-3-radial.md)
