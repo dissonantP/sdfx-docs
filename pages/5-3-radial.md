@@ -28,4 +28,4 @@ Neat 👍
 
 ![img](/images/radial-7.png)
 
-[Next: Radial Spokes](/pages/5-4-hatching.md)
+[Next: Hatching](/pages/5-4-hatching.md)
