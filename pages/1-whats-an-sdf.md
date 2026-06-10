@@ -18,7 +18,7 @@ Positive values are outside the shape, and negative values are inside it.
 
 Here's an image to illustrate:
 
-![sdf](/images/whats_an_sdf.png)
+<img src="/images/whats_an_sdf.png" alt="sdf">
 
 This method of mathematically representing shapes has a lot of uses, including for collision detection in games, and simulation of volumetric effects like fluid, fog and fire.
 

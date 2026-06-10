@@ -4,17 +4,17 @@
 
 Here we'll explain this part of the UI:
 
-![img](/images/input-output-ui.png)
+<img src="/images/input-output-ui.png" alt="img">
 
 ## Input
 
 You select input by simply clicking on a layer in Photoshop's layers panel.
 
-![img](/images/click-layer.png)
+<img src="/images/click-layer.png" alt="img">
 
 You can also click on groups, in case you want to use a stack of layers as the input.
 
-![img](/images/click-group.png)
+<img src="/images/click-group.png" alt="img">
 
 The plugin will rasterize the given group behind the scenes (don't worry, it won't overwrite your group).
 
@@ -28,7 +28,7 @@ By default, the output is set to "Create New Layer". After the plugin executes f
 
 This behavior (that the output layer is reused) has benefits. You can add procedural effects on the output, and they will apply whenever the SDF effect is re-executed:
 
-![img](/images/output-fx.png)
+<img src="/images/output-fx.png" alt="img">
 
 If you want, you can manually select an output layer to write to. You can press "Refresh Layers" to get an updated list of layers in your scene. Or you can switch it back to "Create New Layer" if you want a fresh output layer.
 

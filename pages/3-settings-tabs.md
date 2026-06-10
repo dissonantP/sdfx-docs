@@ -4,7 +4,7 @@
 
 Settings are split among 5 tabs. They are run in order, e.g. "Prep" affects "Pre SDF", which affects "SDF", and so on. 
 
-![settings-tabs](/images/settings-tabs.png)
+<img src="/images/settings-tabs.png" alt="settings-tabs">
 
 - **Prep** does some basic adjustments on the input image (blurring, sharpening, threshold, and invert).
 - **Pre-SDF** offers some experimental / artistic effects on the input image
