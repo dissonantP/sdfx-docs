@@ -1,4 +1,5 @@
 [back to docs root](/README.md)
+
 [back to SDF tab docs](/pages/6-sdf.md)
 
 # SDF Tab - Preserve Growth Intersections
@@ -13,9 +14,11 @@ By the way, when working with un-rasterized text layers, you should put a solid 
 
 <img src="/images/intersect-1.png" alt="img">
 
-Now let's add some SDF growth and then apply Thresholding via the Output tab. 
+Now let's add some SDF growth.
 
-<img src="/images/intersect-2.png" alt="img">
+<img src="/images/intersect-2.png" width='300' alt="img">
+
+Then, we can apply Thresholding via the Output tab. 
 <img src="/images/intersect-3.png" alt="img">
 
 Kinda sucks right? Certainly doesn't look like text anymore.
@@ -30,7 +33,9 @@ Increasing "Intersection Source Separation" cleans it up right away. This is bas
 
 <img src="/images/intersect-5.png" alt="img">
 
-The other settings are mainly for fine-tuning and niche cases.
+The other settings are mainly for fine-tuning and niche cases:
+
+<img src="/images/intersect-7.png" alt="img">
 
 "Intersection Source Separation" hides the lines above a certain SDF brightness, should you find a need for that:
 
