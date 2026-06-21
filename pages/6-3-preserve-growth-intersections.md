@@ -29,6 +29,8 @@ Now let's enable "Preserve Growth Intersections":
 
 Instantly, we can see our letters again. But it needs some tweaking.
 
+The intersection lines are kept black inside the SDF data so the later algorithms can use them as separators. Their visible color is applied later when the result is rendered, so you can change "Intersection color" without changing what the Post-SDF algorithms read.
+
 Increasing "Intersection Source Separation" cleans it up right away. This is basically a sensitivity slider. Increase it further, and you'll see even more of the lines disappear.
 
 <img src="/images/intersect-5.png" alt="img">
